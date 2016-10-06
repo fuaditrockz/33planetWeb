@@ -95,7 +95,7 @@
 								
 							</div>
 							<div class="login-form">
-								<form action="config/login.php" method="post">
+								<form action="login.php" method="post">
 									<p>User Name </p>
 									<input type="text" name="username" required=""/>
 									<p>User Password</p>
@@ -125,7 +125,7 @@
 								
 							</div>
 							<div class="login-form signup-form">
-								<form action="config/signup.php" method="post">
+								<form action="signup.php" method="post">
 									<p>User Name </p>
 									<input type="text" name="username"  required=""/>
 									<p>User Email </p>
