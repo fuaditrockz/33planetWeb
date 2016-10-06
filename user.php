@@ -91,9 +91,8 @@
 					<h5 class="pro-link"><img src="images/33planet new logo3 copy.png" width="150"></a></h5>
 				</div>
 				<div class="Profile-right">
-					<!--<a href="#small-dialog" class="sign-in popup-top-anim"> <i class="fa fa-user"></i></a> -->
+                    <!-- Foto Profil User dengan drop down menu -->
                     <div class="user" style="background-image:url('images/t1.jpg')">
-                    <!--<div class="dropdown">-->
                     <ul class="nav nav-pills">
                     <li class="dropdown">
                     <a href="#" data-toggle="dropdown" class="dropdown-toggle"> <b class="caret"></b></a>
