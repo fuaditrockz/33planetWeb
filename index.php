@@ -1,3 +1,9 @@
+<?php
+   session_start();
+   if(isset($_SESSION['username'])) {
+   header('location:user.php'); }
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -89,11 +95,11 @@
 								
 							</div>
 							<div class="login-form">
-								<form action="#" method="post">
+								<form action="config/login.php" method="post">
 									<p>User Name </p>
-									<input type="text" name="Name" required=""/>
+									<input type="text" name="username" required=""/>
 									<p>User Password</p>
-									<input type="password" name="Password" required=""/>	 
+									<input type="password" name="password" required=""/>	 
 									<div class="wthree-text"> 
 										<ul> 
 											<li>
@@ -119,13 +125,13 @@
 								
 							</div>
 							<div class="login-form signup-form">
-								<form action="#" method="post">
+								<form action="config/signup.php" method="post">
 									<p>User Name </p>
-									<input type="text" name="Name"  required=""/>
+									<input type="text" name="username"  required=""/>
 									<p>User Email </p>
-									<input type="text" name="Email"  required=""/>
+									<input type="text" name="email"  required=""/>
 									<p>User Password</p>
-									<input type="password" name="Password" placeholder="" required=""/>	
+									<input type="password" name="password" placeholder="" required=""/>	
 									<div class="wthree-text"> 
 										<input type="checkbox" id="brand1" value="">
 										<label for="brand1"><span></span>I accept the terms of use</label> 
